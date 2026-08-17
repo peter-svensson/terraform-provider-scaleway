@@ -6,6 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/scaleway/terraform-provider-scaleway/v2/internal/acctest"
 	edgeservicestestfuncs "github.com/scaleway/terraform-provider-scaleway/v2/internal/services/edgeservices/testfuncs"
+	objectchecks "github.com/scaleway/terraform-provider-scaleway/v2/internal/services/object/testfuncs"
 )
 
 func TestAccEdgeServicesRoute_Basic(t *testing.T) {
@@ -14,7 +15,10 @@ func TestAccEdgeServicesRoute_Basic(t *testing.T) {
 
 	resource.ParallelTest(t, resource.TestCase{
 		ProtoV6ProviderFactories: tt.ProviderFactories,
-		CheckDestroy:             edgeservicestestfuncs.CheckEdgeServicesRouteDestroy(tt),
+		CheckDestroy: resource.ComposeTestCheckFunc(
+			edgeservicestestfuncs.CheckEdgeServicesRouteDestroy(tt),
+			objectchecks.IsBucketDestroyed(tt),
+		),
 		Steps: []resource.TestStep{
 			{
 				Config: `
@@ -22,15 +26,15 @@ func TestAccEdgeServicesRoute_Basic(t *testing.T) {
 				  name        = "my-edge-services-pipeline"
 				  description = "pipeline description"
 				}
-				
+
 				resource "scaleway_edge_services_waf_stage" "waf" {
 				  pipeline_id    = scaleway_edge_services_pipeline.main.id
 				  mode           = "enable"
 				  paranoia_level = 3
 				}
-				
+
 				resource "scaleway_object_bucket" "main" {
-				  name = "test-acc-scaleway-object-bucket-basic-route"
+				  name = "tf-test-scaleway-object-bucket-basic-route"
 				  tags = {
 					foo = "bar"
 				  }
@@ -94,7 +98,10 @@ func TestAccEdgeServicesRoute_HostFilter(t *testing.T) {
 
 	resource.ParallelTest(t, resource.TestCase{
 		ProtoV6ProviderFactories: tt.ProviderFactories,
-		CheckDestroy:             edgeservicestestfuncs.CheckEdgeServicesRouteDestroy(tt),
+		CheckDestroy: resource.ComposeTestCheckFunc(
+			edgeservicestestfuncs.CheckEdgeServicesRouteDestroy(tt),
+			objectchecks.IsBucketDestroyed(tt),
+		),
 		Steps: []resource.TestStep{
 			{
 				Config: `
@@ -122,7 +129,7 @@ func TestAccEdgeServicesRoute_HostFilter(t *testing.T) {
 				}
 
 				resource "scaleway_object_bucket" "main" {
-				  name = "test-acc-scaleway-object-bucket-host-filter-route"
+				  name = "tf-test-scaleway-object-bucket-host-filter-route"
 				  tags = {
 					foo = "bar"
 				  }
@@ -189,7 +196,10 @@ func TestAccEdgeServicesRoute_WafRule(t *testing.T) {
 
 	resource.ParallelTest(t, resource.TestCase{
 		ProtoV6ProviderFactories: tt.ProviderFactories,
-		CheckDestroy:             edgeservicestestfuncs.CheckEdgeServicesRouteDestroy(tt),
+		CheckDestroy: resource.ComposeTestCheckFunc(
+			edgeservicestestfuncs.CheckEdgeServicesRouteDestroy(tt),
+			objectchecks.IsBucketDestroyed(tt),
+		),
 		Steps: []resource.TestStep{
 			{
 				Config: `
@@ -205,7 +215,7 @@ func TestAccEdgeServicesRoute_WafRule(t *testing.T) {
 				}
 
 				resource "scaleway_object_bucket" "main" {
-				  name = "test-acc-scaleway-object-bucket-waf-route-rule"
+				  name = "tf-test-scaleway-object-bucket-waf-route-rule"
 				  tags = {
 					foo = "bar"
 				  }
