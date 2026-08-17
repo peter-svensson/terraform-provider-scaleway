@@ -9,7 +9,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -18,16 +18,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 15b886a6-9500-4f62-aadc-d1d982c6512d
+                - 45c96a80-6850-45ed-b9e6-871674737357
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095411Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/
+                - 20260813T154021Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/
         method: PUT
       response:
         proto: HTTP/2.0
@@ -42,16 +42,16 @@ interactions:
             Content-Length:
                 - "0"
             Date:
-                - Mon, 18 May 2026 09:54:11 GMT
+                - Thu, 13 Aug 2026 15:40:21 GMT
             Location:
-                - /test-acc-scaleway-block-snapshot-367838875097312830
+                - /tf-test-scaleway-block-snapshot-3332587286299671555
             X-Amz-Id-2:
-                - txgf50a102267444f20911a-006a0ae1c3
+                - txg109b942463c24eef8ee4-006a7de565
             X-Amz-Request-Id:
-                - txgf50a102267444f20911a-006a0ae1c3
+                - txg109b942463c24eef8ee4-006a7de565
         status: 200 OK
         code: 200
-        duration: 4.888080427s
+        duration: 1.3437814s
     - id: 1
       request:
         proto: HTTP/1.1
@@ -60,7 +60,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -69,11 +69,11 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 16236081-3d9c-4205-8aaa-890921d129aa
+                - 73c5a3e5-c447-4797-9f20-74a76427b405
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,Z,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,Z,e
             X-Amz-Acl:
                 - private
             X-Amz-Checksum-Crc32:
@@ -81,8 +81,8 @@ interactions:
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095416Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?acl=
+                - 20260813T154023Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?acl=
         method: PUT
       response:
         proto: HTTP/2.0
@@ -97,14 +97,14 @@ interactions:
             Content-Length:
                 - "0"
             Date:
-                - Mon, 18 May 2026 09:54:16 GMT
+                - Thu, 13 Aug 2026 15:40:23 GMT
             X-Amz-Id-2:
-                - txg1883165dccf847d1a60f-006a0ae1c8
+                - txg4dae6bf9a73b47d78357-006a7de567
             X-Amz-Request-Id:
-                - txg1883165dccf847d1a60f-006a0ae1c8
+                - txg4dae6bf9a73b47d78357-006a7de567
         status: 200 OK
         code: 200
-        duration: 308.785831ms
+        duration: 327.67529ms
     - id: 2
       request:
         proto: HTTP/1.1
@@ -113,7 +113,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -122,16 +122,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 2a2157b9-d3a6-4e95-9b2e-fabe54eb3422
+                - c7cf0e4b-d067-453b-ab3b-876eaa0461cc
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095416Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?acl=
+                - 20260813T154023Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?acl=
         method: GET
       response:
         proto: HTTP/2.0
@@ -150,14 +150,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:16 GMT
+                - Thu, 13 Aug 2026 15:40:23 GMT
             X-Amz-Id-2:
-                - txgfceda6d6cd48455eb97c-006a0ae1c8
+                - txg68c39c7334054abfa365-006a7de567
             X-Amz-Request-Id:
-                - txgfceda6d6cd48455eb97c-006a0ae1c8
+                - txg68c39c7334054abfa365-006a7de567
         status: 200 OK
         code: 200
-        duration: 68.609961ms
+        duration: 406.697702ms
     - id: 3
       request:
         proto: HTTP/1.1
@@ -166,7 +166,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -175,16 +175,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - b512e69a-79a9-4c44-ba4f-8e0170d27d1a
+                - 9a1af5c1-dc85-466d-8e72-a62150974c99
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095416Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?object-lock=
+                - 20260813T154023Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?object-lock=
         method: GET
       response:
         proto: HTTP/2.0
@@ -194,21 +194,21 @@ interactions:
         trailer: {}
         content_length: 320
         uncompressed: false
-        body: <Error><Code>ObjectLockConfigurationNotFoundError</Code><Message>Object Lock configuration does not exist for this bucket</Message><RequestId>txg436540a2f01d4ef5bcab-006a0ae1c8</RequestId><HostId>txg436540a2f01d4ef5bcab-006a0ae1c8</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource></Error>
+        body: <Error><Code>ObjectLockConfigurationNotFoundError</Code><Message>Object Lock configuration does not exist for this bucket</Message><RequestId>txg3b6ed674ee04496681da-006a7de567</RequestId><HostId>txg3b6ed674ee04496681da-006a7de567</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource></Error>
         headers:
             Content-Length:
                 - "320"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:16 GMT
+                - Thu, 13 Aug 2026 15:40:23 GMT
             X-Amz-Id-2:
-                - txg436540a2f01d4ef5bcab-006a0ae1c8
+                - txg3b6ed674ee04496681da-006a7de567
             X-Amz-Request-Id:
-                - txg436540a2f01d4ef5bcab-006a0ae1c8
+                - txg3b6ed674ee04496681da-006a7de567
         status: 404 Not Found
         code: 404
-        duration: 114.737603ms
+        duration: 156.002047ms
     - id: 4
       request:
         proto: HTTP/1.1
@@ -217,7 +217,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -226,16 +226,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 4ec62357-4bb0-4d54-9204-18f3551d18dc
+                - c10ada5f-8465-4d43-8b53-3020fc4d5535
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095416Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/
+                - 20260813T154023Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/
         method: GET
       response:
         proto: HTTP/2.0
@@ -247,21 +247,21 @@ interactions:
         uncompressed: false
         body: |-
             <?xml version="1.0" encoding="UTF-8"?>
-            <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>test-acc-scaleway-block-snapshot-367838875097312830</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated></ListBucketResult>
+            <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>tf-test-scaleway-block-snapshot-3332587286299671555</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated></ListBucketResult>
         headers:
             Content-Length:
                 - "277"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:23 GMT
             X-Amz-Id-2:
-                - txg0ca2a4497b4c4caca011-006a0ae1c9
+                - txg48e48a8a2ec849659086-006a7de567
             X-Amz-Request-Id:
-                - txg0ca2a4497b4c4caca011-006a0ae1c9
+                - txg48e48a8a2ec849659086-006a7de567
         status: 200 OK
         code: 200
-        duration: 245.95726ms
+        duration: 332.591409ms
     - id: 5
       request:
         proto: HTTP/1.1
@@ -270,7 +270,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -279,16 +279,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 34e6b66a-3208-4e3a-8d22-027aea927d7b
+                - d105bb35-7f1f-4870-925b-be8ba25006f7
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095417Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?tagging=
+                - 20260813T154023Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?tagging=
         method: GET
       response:
         proto: HTTP/2.0
@@ -298,21 +298,21 @@ interactions:
         trailer: {}
         content_length: 341
         uncompressed: false
-        body: <Error><Code>NoSuchTagSet</Code><Message>The TagSet does not exist</Message><RequestId>txg723da9f8f05d4063a359-006a0ae1c9</RequestId><HostId>txg723da9f8f05d4063a359-006a0ae1c9</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource><BucketName>test-acc-scaleway-block-snapshot-367838875097312830</BucketName></Error>
+        body: <Error><Code>NoSuchTagSet</Code><Message>The TagSet does not exist</Message><RequestId>txg54d04ae2480a4ffeb940-006a7de568</RequestId><HostId>txg54d04ae2480a4ffeb940-006a7de568</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource><BucketName>tf-test-scaleway-block-snapshot-3332587286299671555</BucketName></Error>
         headers:
             Content-Length:
                 - "341"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:24 GMT
             X-Amz-Id-2:
-                - txg723da9f8f05d4063a359-006a0ae1c9
+                - txg54d04ae2480a4ffeb940-006a7de568
             X-Amz-Request-Id:
-                - txg723da9f8f05d4063a359-006a0ae1c9
+                - txg54d04ae2480a4ffeb940-006a7de568
         status: 404 Not Found
         code: 404
-        duration: 39.60158ms
+        duration: 21.119555ms
     - id: 6
       request:
         proto: HTTP/1.1
@@ -321,7 +321,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -330,16 +330,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 067111e6-cca1-4590-8206-ada2d62bcd45
+                - 13eb47fa-4220-4e66-9fcc-f38b3aaf6ad4
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095417Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?cors=
+                - 20260813T154024Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?cors=
         method: GET
       response:
         proto: HTTP/2.0
@@ -349,21 +349,21 @@ interactions:
         trailer: {}
         content_length: 288
         uncompressed: false
-        body: <Error><Code>NoSuchCORSConfiguration</Code><Message>The CORS configuration does not exist</Message><RequestId>txgb7c5d166608c40259bef-006a0ae1c9</RequestId><HostId>txgb7c5d166608c40259bef-006a0ae1c9</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource></Error>
+        body: <Error><Code>NoSuchCORSConfiguration</Code><Message>The CORS configuration does not exist</Message><RequestId>txg20ff2ef545ca46f598b4-006a7de568</RequestId><HostId>txg20ff2ef545ca46f598b4-006a7de568</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource></Error>
         headers:
             Content-Length:
                 - "288"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:24 GMT
             X-Amz-Id-2:
-                - txgb7c5d166608c40259bef-006a0ae1c9
+                - txg20ff2ef545ca46f598b4-006a7de568
             X-Amz-Request-Id:
-                - txgb7c5d166608c40259bef-006a0ae1c9
+                - txg20ff2ef545ca46f598b4-006a7de568
         status: 404 Not Found
         code: 404
-        duration: 112.553074ms
+        duration: 132.136726ms
     - id: 7
       request:
         proto: HTTP/1.1
@@ -372,7 +372,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -381,16 +381,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - c9d08ee5-7db1-489e-b030-fb680743b5df
+                - bae07d21-f621-498f-88f1-c3bc0fd1af73
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095417Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?versioning=
+                - 20260813T154024Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?versioning=
         method: GET
       response:
         proto: HTTP/2.0
@@ -409,14 +409,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:24 GMT
             X-Amz-Id-2:
-                - txg494dd9de806c43098644-006a0ae1c9
+                - txgf3327e6108ac432fb0e0-006a7de568
             X-Amz-Request-Id:
-                - txg494dd9de806c43098644-006a0ae1c9
+                - txgf3327e6108ac432fb0e0-006a7de568
         status: 200 OK
         code: 200
-        duration: 122.741133ms
+        duration: 135.101482ms
     - id: 8
       request:
         proto: HTTP/1.1
@@ -425,7 +425,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -434,16 +434,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 415b0609-5e25-4f71-9311-40b76ef1137a
+                - b61058df-e84e-4f5a-8269-709f5918473f
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095417Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?lifecycle=
+                - 20260813T154024Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?lifecycle=
         method: GET
       response:
         proto: HTTP/2.0
@@ -453,21 +453,21 @@ interactions:
         trailer: {}
         content_length: 374
         uncompressed: false
-        body: <Error><Code>NoSuchLifecycleConfiguration</Code><Message>The lifecycle configuration does not exist</Message><RequestId>txg6e0e8d6a09d340a18abe-006a0ae1c9</RequestId><HostId>txg6e0e8d6a09d340a18abe-006a0ae1c9</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource><BucketName>test-acc-scaleway-block-snapshot-367838875097312830</BucketName></Error>
+        body: <Error><Code>NoSuchLifecycleConfiguration</Code><Message>The lifecycle configuration does not exist</Message><RequestId>txgf87eed0baef545eba02f-006a7de568</RequestId><HostId>txgf87eed0baef545eba02f-006a7de568</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource><BucketName>tf-test-scaleway-block-snapshot-3332587286299671555</BucketName></Error>
         headers:
             Content-Length:
                 - "374"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:24 GMT
             X-Amz-Id-2:
-                - txg6e0e8d6a09d340a18abe-006a0ae1c9
+                - txgf87eed0baef545eba02f-006a7de568
             X-Amz-Request-Id:
-                - txg6e0e8d6a09d340a18abe-006a0ae1c9
+                - txgf87eed0baef545eba02f-006a7de568
         status: 404 Not Found
         code: 404
-        duration: 114.407181ms
+        duration: 129.789183ms
     - id: 9
       request:
         proto: HTTP/1.1
@@ -476,7 +476,7 @@ interactions:
         content_length: 196669
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: !!binary |
@@ -4232,7 +4232,7 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 582ba177-7455-4f25-bc68-e307d619dba9
+                - 91bca514-f5cb-4304-a98b-2105b1a415b4
             Amz-Sdk-Request:
                 - attempt=1; max=3
             Content-Encoding:
@@ -4240,16 +4240,16 @@ interactions:
             Content-Type:
                 - application/octet-stream
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,Z,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,Z,e
             X-Amz-Content-Sha256:
                 - STREAMING-UNSIGNED-PAYLOAD-TRAILER
             X-Amz-Date:
-                - 20260518T095417Z
+                - 20260813T154024Z
             X-Amz-Decoded-Content-Length:
                 - "196624"
             X-Amz-Trailer:
                 - x-amz-checksum-crc32
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?x-id=PutObject
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?x-id=PutObject
         method: PUT
       response:
         proto: HTTP/2.0
@@ -4264,7 +4264,7 @@ interactions:
             Content-Length:
                 - "0"
             Date:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:24 GMT
             Etag:
                 - '"59868f85d88d34ee79e32759dad70bf7"'
             X-Amz-Checksum-Crc32:
@@ -4272,12 +4272,12 @@ interactions:
             X-Amz-Checksum-Type:
                 - FULL_OBJECT
             X-Amz-Id-2:
-                - txg44d5caec3f1b420587ed-006a0ae1c9
+                - txg4c6457bec99e491fbf00-006a7de568
             X-Amz-Request-Id:
-                - txg44d5caec3f1b420587ed-006a0ae1c9
+                - txg4c6457bec99e491fbf00-006a7de568
         status: 200 OK
         code: 200
-        duration: 4.423627543s
+        duration: 5.65327033s
     - id: 10
       request:
         proto: HTTP/1.1
@@ -4286,7 +4286,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4295,16 +4295,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - f85f92e7-05a6-4020-a0af-66e858352827
+                - 3dde8a89-e608-4508-85da-999d851d82bc
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095422Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2
+                - 20260813T154030Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2
         method: HEAD
       response:
         proto: HTTP/2.0
@@ -4323,18 +4323,18 @@ interactions:
             Content-Type:
                 - application/octet-stream
             Date:
-                - Mon, 18 May 2026 09:54:22 GMT
+                - Thu, 13 Aug 2026 15:40:30 GMT
             Etag:
                 - '"59868f85d88d34ee79e32759dad70bf7"'
             Last-Modified:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:25 GMT
             X-Amz-Id-2:
-                - txg7898e96412c346bcac97-006a0ae1ce
+                - txg4676fb9534834c8fa6cf-006a7de56e
             X-Amz-Request-Id:
-                - txg7898e96412c346bcac97-006a0ae1ce
+                - txg4676fb9534834c8fa6cf-006a7de56e
         status: 200 OK
         code: 200
-        duration: 129.849805ms
+        duration: 138.387686ms
     - id: 11
       request:
         proto: HTTP/1.1
@@ -4343,7 +4343,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4352,16 +4352,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 08b28ffb-5a43-4eb2-84c4-b9b938691f6d
+                - 970d4c81-a7fb-4090-8079-13f2f96962cc
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095422Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?tagging=
+                - 20260813T154030Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?tagging=
         method: GET
       response:
         proto: HTTP/2.0
@@ -4380,14 +4380,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:22 GMT
+                - Thu, 13 Aug 2026 15:40:30 GMT
             X-Amz-Id-2:
-                - txg75bfcac097a54404a5f0-006a0ae1ce
+                - txg337f3d32d38a4471b040-006a7de56e
             X-Amz-Request-Id:
-                - txg75bfcac097a54404a5f0-006a0ae1ce
+                - txg337f3d32d38a4471b040-006a7de56e
         status: 200 OK
         code: 200
-        duration: 82.263521ms
+        duration: 104.16253ms
     - id: 12
       request:
         proto: HTTP/1.1
@@ -4396,7 +4396,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4405,16 +4405,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 7542bdaf-409c-4c2a-90be-aa20cd1899ba
+                - 3447eb59-cc5d-4adf-86df-79c9112a43a3
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095422Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?acl=
+                - 20260813T154030Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?acl=
         method: GET
       response:
         proto: HTTP/2.0
@@ -4433,14 +4433,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:22 GMT
+                - Thu, 13 Aug 2026 15:40:30 GMT
             X-Amz-Id-2:
-                - txg8c59a61e1fa24d3aa3d8-006a0ae1ce
+                - txgbb0069583f0747d0b250-006a7de56e
             X-Amz-Request-Id:
-                - txg8c59a61e1fa24d3aa3d8-006a0ae1ce
+                - txgbb0069583f0747d0b250-006a7de56e
         status: 200 OK
         code: 200
-        duration: 143.355923ms
+        duration: 234.5858ms
     - id: 13
       request:
         proto: HTTP/1.1
@@ -4452,7 +4452,7 @@ interactions:
         host: api.scaleway.com
         remote_addr: ""
         request_uri: ""
-        body: '{"bucket":"test-acc-scaleway-block-snapshot-367838875097312830","key":"test-acc-block-snapshot.qcow2","name":"test-acc-block-snapshot-qcow2","project_id":"105bdce1-64c0-48ab-899d-868455867ecf","tags":[]}'
+        body: '{"bucket":"tf-test-scaleway-block-snapshot-3332587286299671555","key":"test-acc-block-snapshot.qcow2","name":"test-acc-block-snapshot-qcow2","project_id":"105bdce1-64c0-48ab-899d-868455867ecf","tags":[]}'
         form: {}
         headers:
             Content-Type:
@@ -4467,18 +4467,18 @@ interactions:
         proto_minor: 0
         transfer_encoding: []
         trailer: {}
-        content_length: 354
+        content_length: 366
         uncompressed: false
-        body: '{"class":"sbs","created_at":"2026-05-18T09:54:23.369419Z","id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"creating","tags":[],"updated_at":"2026-05-18T09:54:23.369419Z","zone":"fr-par-1"}'
+        body: '{"class":"sbs","created_at":"2026-08-13T15:40:31.844793Z","id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"creating","tags":[],"updated_at":"2026-08-13T15:40:31.844793Z","zone":"fr-par-1"}'
         headers:
             Content-Length:
-                - "354"
+                - "366"
             Content-Security-Policy:
                 - default-src 'none'; frame-ancestors 'none'
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:23 GMT
+                - Thu, 13 Aug 2026 15:40:31 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -4488,10 +4488,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - a43ceb6b-3313-446b-ad96-7f8e2a2a9d76
+                - c52914e0-61a1-478f-bf3d-cc33919389a6
         status: 200 OK
         code: 200
-        duration: 881.306802ms
+        duration: 1.04244463s
     - id: 14
       request:
         proto: HTTP/1.1
@@ -4508,7 +4508,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: GET
       response:
         proto: HTTP/2.0
@@ -4516,18 +4516,18 @@ interactions:
         proto_minor: 0
         transfer_encoding: []
         trailer: {}
-        content_length: 354
+        content_length: 366
         uncompressed: false
-        body: '{"class":"sbs","created_at":"2026-05-18T09:54:23.369419Z","id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"creating","tags":[],"updated_at":"2026-05-18T09:54:23.369419Z","zone":"fr-par-1"}'
+        body: '{"class":"sbs","created_at":"2026-08-13T15:40:31.844793Z","id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"creating","tags":[],"updated_at":"2026-08-13T15:40:31.844793Z","zone":"fr-par-1"}'
         headers:
             Content-Length:
-                - "354"
+                - "366"
             Content-Security-Policy:
                 - default-src 'none'; frame-ancestors 'none'
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:23 GMT
+                - Thu, 13 Aug 2026 15:40:31 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -4537,10 +4537,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - d2e0a931-c522-469d-a00d-20eecbf66948
+                - 834dcfe0-394b-4042-9770-46af7c4cd17b
         status: 200 OK
         code: 200
-        duration: 111.277389ms
+        duration: 63.271424ms
     - id: 15
       request:
         proto: HTTP/1.1
@@ -4557,7 +4557,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: GET
       response:
         proto: HTTP/2.0
@@ -4565,18 +4565,18 @@ interactions:
         proto_minor: 0
         transfer_encoding: []
         trailer: {}
-        content_length: 355
+        content_length: 367
         uncompressed: false
-        body: '{"class":"sbs","created_at":"2026-05-18T09:54:23.369419Z","id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-05-18T09:54:23.369419Z","zone":"fr-par-1"}'
+        body: '{"class":"sbs","created_at":"2026-08-13T15:40:31.844793Z","id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-08-13T15:40:33.545464Z","zone":"fr-par-1"}'
         headers:
             Content-Length:
-                - "355"
+                - "367"
             Content-Security-Policy:
                 - default-src 'none'; frame-ancestors 'none'
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:28 GMT
+                - Thu, 13 Aug 2026 15:40:37 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -4586,10 +4586,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - e2ab1a59-ce51-4c02-a87b-c1256e892831
+                - e87057c0-49b2-4502-b9c9-28183c86dbd8
         status: 200 OK
         code: 200
-        duration: 33.854349ms
+        duration: 161.614788ms
     - id: 16
       request:
         proto: HTTP/1.1
@@ -4606,7 +4606,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: GET
       response:
         proto: HTTP/2.0
@@ -4614,18 +4614,18 @@ interactions:
         proto_minor: 0
         transfer_encoding: []
         trailer: {}
-        content_length: 355
+        content_length: 367
         uncompressed: false
-        body: '{"class":"sbs","created_at":"2026-05-18T09:54:23.369419Z","id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-05-18T09:54:23.369419Z","zone":"fr-par-1"}'
+        body: '{"class":"sbs","created_at":"2026-08-13T15:40:31.844793Z","id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-08-13T15:40:33.545464Z","zone":"fr-par-1"}'
         headers:
             Content-Length:
-                - "355"
+                - "367"
             Content-Security-Policy:
                 - default-src 'none'; frame-ancestors 'none'
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:28 GMT
+                - Thu, 13 Aug 2026 15:40:37 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -4635,10 +4635,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - 6f8dbe3f-aa84-4301-a271-83dd5fe6a21c
+                - 6e026fa7-7feb-4ca9-9c2c-00b847e65e78
         status: 200 OK
         code: 200
-        duration: 35.958617ms
+        duration: 42.447967ms
     - id: 17
       request:
         proto: HTTP/1.1
@@ -4655,7 +4655,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: GET
       response:
         proto: HTTP/2.0
@@ -4663,18 +4663,18 @@ interactions:
         proto_minor: 0
         transfer_encoding: []
         trailer: {}
-        content_length: 355
+        content_length: 367
         uncompressed: false
-        body: '{"class":"sbs","created_at":"2026-05-18T09:54:23.369419Z","id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-05-18T09:54:23.369419Z","zone":"fr-par-1"}'
+        body: '{"class":"sbs","created_at":"2026-08-13T15:40:31.844793Z","id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-08-13T15:40:33.545464Z","zone":"fr-par-1"}'
         headers:
             Content-Length:
-                - "355"
+                - "367"
             Content-Security-Policy:
                 - default-src 'none'; frame-ancestors 'none'
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:28 GMT
+                - Thu, 13 Aug 2026 15:40:37 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -4684,10 +4684,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - 0a67dfb3-4434-4eff-a782-a12cb9611740
+                - 903be005-988c-451c-8edd-2734f745f6f7
         status: 200 OK
         code: 200
-        duration: 41.873188ms
+        duration: 162.639776ms
     - id: 18
       request:
         proto: HTTP/1.1
@@ -4696,7 +4696,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4705,16 +4705,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 3d449a92-6b3c-4d62-8a4b-13c868a197a4
+                - 127ef425-971d-4d64-bfcf-e578a2041fa7
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095428Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?acl=
+                - 20260813T154037Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?acl=
         method: GET
       response:
         proto: HTTP/2.0
@@ -4733,14 +4733,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:29 GMT
+                - Thu, 13 Aug 2026 15:40:37 GMT
             X-Amz-Id-2:
-                - txged89b5c9011a4e3683c8-006a0ae1d5
+                - txg9000ecd9da6a4fa2a588-006a7de575
             X-Amz-Request-Id:
-                - txged89b5c9011a4e3683c8-006a0ae1d5
+                - txg9000ecd9da6a4fa2a588-006a7de575
         status: 200 OK
         code: 200
-        duration: 233.64385ms
+        duration: 311.729982ms
     - id: 19
       request:
         proto: HTTP/1.1
@@ -4749,7 +4749,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4758,16 +4758,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - aa192498-c6df-4172-ad2f-1512630801a7
+                - df26f488-d391-424f-ae0c-1c85da93bde2
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095429Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?object-lock=
+                - 20260813T154037Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?object-lock=
         method: GET
       response:
         proto: HTTP/2.0
@@ -4777,21 +4777,21 @@ interactions:
         trailer: {}
         content_length: 320
         uncompressed: false
-        body: <Error><Code>ObjectLockConfigurationNotFoundError</Code><Message>Object Lock configuration does not exist for this bucket</Message><RequestId>txg1bb0239f98574da6b4e0-006a0ae1d5</RequestId><HostId>txg1bb0239f98574da6b4e0-006a0ae1d5</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource></Error>
+        body: <Error><Code>ObjectLockConfigurationNotFoundError</Code><Message>Object Lock configuration does not exist for this bucket</Message><RequestId>txgbba003f6bd3e494c8e5d-006a7de575</RequestId><HostId>txgbba003f6bd3e494c8e5d-006a7de575</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource></Error>
         headers:
             Content-Length:
                 - "320"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:29 GMT
+                - Thu, 13 Aug 2026 15:40:37 GMT
             X-Amz-Id-2:
-                - txg1bb0239f98574da6b4e0-006a0ae1d5
+                - txgbba003f6bd3e494c8e5d-006a7de575
             X-Amz-Request-Id:
-                - txg1bb0239f98574da6b4e0-006a0ae1d5
+                - txgbba003f6bd3e494c8e5d-006a7de575
         status: 404 Not Found
         code: 404
-        duration: 473.022796ms
+        duration: 232.732464ms
     - id: 20
       request:
         proto: HTTP/1.1
@@ -4800,7 +4800,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4809,16 +4809,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 02f510bf-4efa-46f2-8857-4d99cf3f3c65
+                - 7e3d51b0-2fb9-48ea-86e6-f8aec48c089e
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095429Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/
+                - 20260813T154037Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/
         method: GET
       response:
         proto: HTTP/2.0
@@ -4830,21 +4830,21 @@ interactions:
         uncompressed: false
         body: |-
             <?xml version="1.0" encoding="UTF-8"?>
-            <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>test-acc-scaleway-block-snapshot-367838875097312830</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>test-acc-block-snapshot.qcow2</Key><LastModified>2026-05-18T09:54:17.000Z</LastModified><ETag>&#34;59868f85d88d34ee79e32759dad70bf7&#34;</ETag><Size>196624</Size><Owner><DisplayName>105bdce1-64c0-48ab-899d-868455867ecf:105bdce1-64c0-48ab-899d-868455867ecf</DisplayName><ID>105bdce1-64c0-48ab-899d-868455867ecf:105bdce1-64c0-48ab-899d-868455867ecf</ID></Owner><StorageClass>STANDARD</StorageClass><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType></Contents></ListBucketResult>
+            <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>tf-test-scaleway-block-snapshot-3332587286299671555</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>test-acc-block-snapshot.qcow2</Key><LastModified>2026-08-13T15:40:25.000Z</LastModified><ETag>&#34;59868f85d88d34ee79e32759dad70bf7&#34;</ETag><Size>196624</Size><Owner><DisplayName>105bdce1-64c0-48ab-899d-868455867ecf:105bdce1-64c0-48ab-899d-868455867ecf</DisplayName><ID>105bdce1-64c0-48ab-899d-868455867ecf:105bdce1-64c0-48ab-899d-868455867ecf</ID></Owner><StorageClass>STANDARD</StorageClass><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType></Contents></ListBucketResult>
         headers:
             Content-Length:
                 - "783"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:29 GMT
+                - Thu, 13 Aug 2026 15:40:38 GMT
             X-Amz-Id-2:
-                - txg7f9f5340eea54d858b11-006a0ae1d5
+                - txg8601858ab22e46a0b07e-006a7de576
             X-Amz-Request-Id:
-                - txg7f9f5340eea54d858b11-006a0ae1d5
+                - txg8601858ab22e46a0b07e-006a7de576
         status: 200 OK
         code: 200
-        duration: 292.576426ms
+        duration: 444.799815ms
     - id: 21
       request:
         proto: HTTP/1.1
@@ -4853,7 +4853,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4862,16 +4862,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - d597e7c5-9d89-4578-a5fb-585de34a2922
+                - 39df829a-8053-4267-90f4-18aa02cc2b52
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095429Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?tagging=
+                - 20260813T154038Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?tagging=
         method: GET
       response:
         proto: HTTP/2.0
@@ -4881,21 +4881,21 @@ interactions:
         trailer: {}
         content_length: 341
         uncompressed: false
-        body: <Error><Code>NoSuchTagSet</Code><Message>The TagSet does not exist</Message><RequestId>txg623b027d0d614afa8184-006a0ae1d6</RequestId><HostId>txg623b027d0d614afa8184-006a0ae1d6</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource><BucketName>test-acc-scaleway-block-snapshot-367838875097312830</BucketName></Error>
+        body: <Error><Code>NoSuchTagSet</Code><Message>The TagSet does not exist</Message><RequestId>txgbe80711c9609408c81d1-006a7de576</RequestId><HostId>txgbe80711c9609408c81d1-006a7de576</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource><BucketName>tf-test-scaleway-block-snapshot-3332587286299671555</BucketName></Error>
         headers:
             Content-Length:
                 - "341"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:30 GMT
+                - Thu, 13 Aug 2026 15:40:38 GMT
             X-Amz-Id-2:
-                - txg623b027d0d614afa8184-006a0ae1d6
+                - txgbe80711c9609408c81d1-006a7de576
             X-Amz-Request-Id:
-                - txg623b027d0d614afa8184-006a0ae1d6
+                - txgbe80711c9609408c81d1-006a7de576
         status: 404 Not Found
         code: 404
-        duration: 244.52525ms
+        duration: 130.520806ms
     - id: 22
       request:
         proto: HTTP/1.1
@@ -4904,7 +4904,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4913,16 +4913,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 583bd94a-2f71-40b1-9b9e-8cb9de55cfa5
+                - f3cab77c-dbfc-4df2-99bb-b08b88bfed46
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095430Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?cors=
+                - 20260813T154038Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?cors=
         method: GET
       response:
         proto: HTTP/2.0
@@ -4932,21 +4932,21 @@ interactions:
         trailer: {}
         content_length: 288
         uncompressed: false
-        body: <Error><Code>NoSuchCORSConfiguration</Code><Message>The CORS configuration does not exist</Message><RequestId>txg8a5f537a70a54f559a36-006a0ae1d6</RequestId><HostId>txg8a5f537a70a54f559a36-006a0ae1d6</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource></Error>
+        body: <Error><Code>NoSuchCORSConfiguration</Code><Message>The CORS configuration does not exist</Message><RequestId>txg4c8aadb0f9634bdc87de-006a7de576</RequestId><HostId>txg4c8aadb0f9634bdc87de-006a7de576</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource></Error>
         headers:
             Content-Length:
                 - "288"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:30 GMT
+                - Thu, 13 Aug 2026 15:40:38 GMT
             X-Amz-Id-2:
-                - txg8a5f537a70a54f559a36-006a0ae1d6
+                - txg4c8aadb0f9634bdc87de-006a7de576
             X-Amz-Request-Id:
-                - txg8a5f537a70a54f559a36-006a0ae1d6
+                - txg4c8aadb0f9634bdc87de-006a7de576
         status: 404 Not Found
         code: 404
-        duration: 238.24973ms
+        duration: 145.886944ms
     - id: 23
       request:
         proto: HTTP/1.1
@@ -4955,7 +4955,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -4964,16 +4964,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - ac13a2d0-b1ff-4005-880a-739a4593a1bf
+                - 0371f14c-e7ae-41b4-81fc-2ec0d3673549
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095430Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?versioning=
+                - 20260813T154038Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?versioning=
         method: GET
       response:
         proto: HTTP/2.0
@@ -4992,14 +4992,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:30 GMT
+                - Thu, 13 Aug 2026 15:40:38 GMT
             X-Amz-Id-2:
-                - txg5c1700d29ac9422cabd4-006a0ae1d6
+                - txg7df1ac0ddf02497f86e8-006a7de576
             X-Amz-Request-Id:
-                - txg5c1700d29ac9422cabd4-006a0ae1d6
+                - txg7df1ac0ddf02497f86e8-006a7de576
         status: 200 OK
         code: 200
-        duration: 138.745524ms
+        duration: 131.072459ms
     - id: 24
       request:
         proto: HTTP/1.1
@@ -5008,7 +5008,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -5017,16 +5017,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 83fdcb1a-7581-4194-9f76-eec8e552093b
+                - b784bc99-c0ba-4444-ada4-ee869c1dece1
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095430Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/?lifecycle=
+                - 20260813T154038Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/?lifecycle=
         method: GET
       response:
         proto: HTTP/2.0
@@ -5036,21 +5036,21 @@ interactions:
         trailer: {}
         content_length: 374
         uncompressed: false
-        body: <Error><Code>NoSuchLifecycleConfiguration</Code><Message>The lifecycle configuration does not exist</Message><RequestId>txgccbfa22c20c24373a999-006a0ae1d6</RequestId><HostId>txgccbfa22c20c24373a999-006a0ae1d6</HostId><Resource>/test-acc-scaleway-block-snapshot-367838875097312830</Resource><BucketName>test-acc-scaleway-block-snapshot-367838875097312830</BucketName></Error>
+        body: <Error><Code>NoSuchLifecycleConfiguration</Code><Message>The lifecycle configuration does not exist</Message><RequestId>txga2b186942e0049f5a7dd-006a7de577</RequestId><HostId>txga2b186942e0049f5a7dd-006a7de577</HostId><Resource>/tf-test-scaleway-block-snapshot-3332587286299671555</Resource><BucketName>tf-test-scaleway-block-snapshot-3332587286299671555</BucketName></Error>
         headers:
             Content-Length:
                 - "374"
             Content-Type:
                 - application/xml
             Date:
-                - Mon, 18 May 2026 09:54:30 GMT
+                - Thu, 13 Aug 2026 15:40:39 GMT
             X-Amz-Id-2:
-                - txgccbfa22c20c24373a999-006a0ae1d6
+                - txga2b186942e0049f5a7dd-006a7de577
             X-Amz-Request-Id:
-                - txgccbfa22c20c24373a999-006a0ae1d6
+                - txga2b186942e0049f5a7dd-006a7de577
         status: 404 Not Found
         code: 404
-        duration: 113.223293ms
+        duration: 133.545797ms
     - id: 25
       request:
         proto: HTTP/1.1
@@ -5059,7 +5059,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -5068,16 +5068,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 2b92072b-ab96-4e86-ba8f-f2aeba4d436d
+                - 41ec6206-a414-4301-8cf3-7d01c175a2c3
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095430Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2
+                - 20260813T154039Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2
         method: HEAD
       response:
         proto: HTTP/2.0
@@ -5096,18 +5096,18 @@ interactions:
             Content-Type:
                 - application/octet-stream
             Date:
-                - Mon, 18 May 2026 09:54:30 GMT
+                - Thu, 13 Aug 2026 15:40:39 GMT
             Etag:
                 - '"59868f85d88d34ee79e32759dad70bf7"'
             Last-Modified:
-                - Mon, 18 May 2026 09:54:17 GMT
+                - Thu, 13 Aug 2026 15:40:25 GMT
             X-Amz-Id-2:
-                - txgcbc8bd6336384527a503-006a0ae1d6
+                - txg8fa44cc05f824fe1b016-006a7de577
             X-Amz-Request-Id:
-                - txgcbc8bd6336384527a503-006a0ae1d6
+                - txg8fa44cc05f824fe1b016-006a7de577
         status: 200 OK
         code: 200
-        duration: 158.407156ms
+        duration: 140.825847ms
     - id: 26
       request:
         proto: HTTP/1.1
@@ -5116,7 +5116,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -5125,16 +5125,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - dbdc41ff-0e7f-4fbc-9bcb-e147d5ae4485
+                - 29529f48-57a7-441c-9270-b08de9f02285
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095430Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?tagging=
+                - 20260813T154039Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?tagging=
         method: GET
       response:
         proto: HTTP/2.0
@@ -5153,14 +5153,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:30 GMT
+                - Thu, 13 Aug 2026 15:40:39 GMT
             X-Amz-Id-2:
-                - txg88358ca6c27d42439046-006a0ae1d6
+                - txge5d4a01e1d2e4392ba72-006a7de577
             X-Amz-Request-Id:
-                - txg88358ca6c27d42439046-006a0ae1d6
+                - txge5d4a01e1d2e4392ba72-006a7de577
         status: 200 OK
         code: 200
-        duration: 130.539955ms
+        duration: 156.484577ms
     - id: 27
       request:
         proto: HTTP/1.1
@@ -5169,7 +5169,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -5178,16 +5178,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - f7fe4f3b-0ab9-4fa9-8a7f-ac6e8880e9b8
+                - 62022b82-8fe6-4541-8ed8-cc426bc06d43
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095430Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?acl=
+                - 20260813T154039Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?acl=
         method: GET
       response:
         proto: HTTP/2.0
@@ -5206,14 +5206,14 @@ interactions:
             Content-Type:
                 - text/xml; charset=utf-8
             Date:
-                - Mon, 18 May 2026 09:54:31 GMT
+                - Thu, 13 Aug 2026 15:40:39 GMT
             X-Amz-Id-2:
-                - txg724d6882251548dc9ffd-006a0ae1d7
+                - txgd21570956af24d09ac04-006a7de577
             X-Amz-Request-Id:
-                - txg724d6882251548dc9ffd-006a0ae1d7
+                - txgd21570956af24d09ac04-006a7de577
         status: 200 OK
         code: 200
-        duration: 128.322864ms
+        duration: 145.657327ms
     - id: 28
       request:
         proto: HTTP/1.1
@@ -5230,7 +5230,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: GET
       response:
         proto: HTTP/2.0
@@ -5238,18 +5238,18 @@ interactions:
         proto_minor: 0
         transfer_encoding: []
         trailer: {}
-        content_length: 355
+        content_length: 367
         uncompressed: false
-        body: '{"class":"sbs","created_at":"2026-05-18T09:54:23.369419Z","id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-05-18T09:54:23.369419Z","zone":"fr-par-1"}'
+        body: '{"class":"sbs","created_at":"2026-08-13T15:40:31.844793Z","id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-08-13T15:40:33.545464Z","zone":"fr-par-1"}'
         headers:
             Content-Length:
-                - "355"
+                - "367"
             Content-Security-Policy:
                 - default-src 'none'; frame-ancestors 'none'
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:31 GMT
+                - Thu, 13 Aug 2026 15:40:39 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -5259,10 +5259,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - 6b9b89d4-d028-41fa-bb52-78af225d0edf
+                - e2568d83-410b-42fd-9a1a-05974e7e6bdf
         status: 200 OK
         code: 200
-        duration: 49.17628ms
+        duration: 48.823676ms
     - id: 29
       request:
         proto: HTTP/1.1
@@ -5279,7 +5279,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: GET
       response:
         proto: HTTP/2.0
@@ -5287,18 +5287,18 @@ interactions:
         proto_minor: 0
         transfer_encoding: []
         trailer: {}
-        content_length: 355
+        content_length: 367
         uncompressed: false
-        body: '{"class":"sbs","created_at":"2026-05-18T09:54:23.369419Z","id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-05-18T09:54:23.369419Z","zone":"fr-par-1"}'
+        body: '{"class":"sbs","created_at":"2026-08-13T15:40:31.844793Z","id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","name":"test-acc-block-snapshot-qcow2","parent_volume":null,"project_id":"105bdce1-64c0-48ab-899d-868455867ecf","public":false,"references":[],"size":1073741824,"status":"available","tags":[],"updated_at":"2026-08-13T15:40:33.545464Z","zone":"fr-par-1"}'
         headers:
             Content-Length:
-                - "355"
+                - "367"
             Content-Security-Policy:
                 - default-src 'none'; frame-ancestors 'none'
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:31 GMT
+                - Thu, 13 Aug 2026 15:40:39 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -5308,10 +5308,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - d80fbd2e-b026-45e3-ae71-b0c58453529c
+                - 2320a093-a0a9-4ed5-bf23-26a4c2cdf6f8
         status: 200 OK
         code: 200
-        duration: 34.919733ms
+        duration: 46.432101ms
     - id: 30
       request:
         proto: HTTP/1.1
@@ -5328,7 +5328,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: DELETE
       response:
         proto: HTTP/2.0
@@ -5345,7 +5345,7 @@ interactions:
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:31 GMT
+                - Thu, 13 Aug 2026 15:40:40 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -5355,10 +5355,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - 06551678-5fd9-4f04-9b16-bc5399ffbe19
+                - 452f696a-9e7d-4821-929f-c2212d44c656
         status: 204 No Content
         code: 204
-        duration: 53.31905ms
+        duration: 66.539054ms
     - id: 31
       request:
         proto: HTTP/1.1
@@ -5375,7 +5375,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: GET
       response:
         proto: HTTP/2.0
@@ -5385,7 +5385,7 @@ interactions:
         trailer: {}
         content_length: 129
         uncompressed: false
-        body: '{"message":"resource is not found","resource":"snapshot","resource_id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","type":"not_found"}'
+        body: '{"message":"resource is not found","resource":"snapshot","resource_id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","type":"not_found"}'
         headers:
             Content-Length:
                 - "129"
@@ -5394,7 +5394,7 @@ interactions:
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:31 GMT
+                - Thu, 13 Aug 2026 15:40:40 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -5404,10 +5404,10 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - 70ae39fb-6550-4a03-8533-a01b12971ede
+                - 7d13c301-6f81-4e62-9094-70bd244017b7
         status: 404 Not Found
         code: 404
-        duration: 34.543936ms
+        duration: 43.715372ms
     - id: 32
       request:
         proto: HTTP/1.1
@@ -5416,7 +5416,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -5425,16 +5425,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - a9f3594d-cac6-47c1-9b89-d1d7b259b47f
+                - a0c0d9fc-31c8-4fad-b261-7d49f966d361
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095431Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?x-id=DeleteObject
+                - 20260813T154040Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/test-acc-block-snapshot.qcow2?x-id=DeleteObject
         method: DELETE
       response:
         proto: HTTP/2.0
@@ -5447,14 +5447,14 @@ interactions:
         body: ""
         headers:
             Date:
-                - Mon, 18 May 2026 09:54:31 GMT
+                - Thu, 13 Aug 2026 15:40:40 GMT
             X-Amz-Id-2:
-                - txg09a327afcfca4d55a1f6-006a0ae1d7
+                - txg65745e1f4f9e44c396b1-006a7de578
             X-Amz-Request-Id:
-                - txg09a327afcfca4d55a1f6-006a0ae1d7
+                - txg65745e1f4f9e44c396b1-006a7de578
         status: 204 No Content
         code: 204
-        duration: 197.26415ms
+        duration: 353.545684ms
     - id: 33
       request:
         proto: HTTP/1.1
@@ -5463,7 +5463,7 @@ interactions:
         content_length: 0
         transfer_encoding: []
         trailer: {}
-        host: test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud
+        host: tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud
         remote_addr: ""
         request_uri: ""
         body: ""
@@ -5472,16 +5472,16 @@ interactions:
             Accept-Encoding:
                 - identity
             Amz-Sdk-Invocation-Id:
-                - 7235db2f-20e9-42ee-89a8-61080e95034a
+                - 9f67a8b8-2a1b-402c-8849-3250eb2e9851
             Amz-Sdk-Request:
                 - attempt=1; max=3
             User-Agent:
-                - aws-sdk-go-v2/1.41.7 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.97.3 terraform-provider-scaleway/develop m/E,e
+                - aws-sdk-go-v2/1.43.4 ua/2.1 os/linux lang/go#1.26.0 md/GOOS#linux md/GOARCH#amd64 api/s3#1.107.0 terraform-provider-scaleway/develop m/E,e
             X-Amz-Content-Sha256:
                 - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             X-Amz-Date:
-                - 20260518T095431Z
-        url: https://test-acc-scaleway-block-snapshot-367838875097312830.s3.fr-par.scw.cloud/
+                - 20260813T154040Z
+        url: https://tf-test-scaleway-block-snapshot-3332587286299671555.s3.fr-par.scw.cloud/
         method: DELETE
       response:
         proto: HTTP/2.0
@@ -5494,14 +5494,14 @@ interactions:
         body: ""
         headers:
             Date:
-                - Mon, 18 May 2026 09:54:32 GMT
+                - Thu, 13 Aug 2026 15:40:40 GMT
             X-Amz-Id-2:
-                - txgcf4d26c6301a499da3ec-006a0ae1d8
+                - txg331743780072404e8c20-006a7de578
             X-Amz-Request-Id:
-                - txgcf4d26c6301a499da3ec-006a0ae1d8
+                - txg331743780072404e8c20-006a7de578
         status: 204 No Content
         code: 204
-        duration: 810.138388ms
+        duration: 615.63017ms
     - id: 34
       request:
         proto: HTTP/1.1
@@ -5518,7 +5518,7 @@ interactions:
         headers:
             User-Agent:
                 - scaleway-sdk-go/v1.0.0-beta.7+dev (go1.26.0; linux; amd64) terraform-provider/develop terraform/terraform-tests
-        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/e27d8af6-cae1-438f-a2f4-c96245c307cc
+        url: https://api.scaleway.com/block/v1/zones/fr-par-1/snapshots/8dce96c2-d3dc-4ea1-b610-b8386ec184b7
         method: DELETE
       response:
         proto: HTTP/2.0
@@ -5528,7 +5528,7 @@ interactions:
         trailer: {}
         content_length: 129
         uncompressed: false
-        body: '{"message":"resource is not found","resource":"snapshot","resource_id":"e27d8af6-cae1-438f-a2f4-c96245c307cc","type":"not_found"}'
+        body: '{"message":"resource is not found","resource":"snapshot","resource_id":"8dce96c2-d3dc-4ea1-b610-b8386ec184b7","type":"not_found"}'
         headers:
             Content-Length:
                 - "129"
@@ -5537,7 +5537,7 @@ interactions:
             Content-Type:
                 - application/json
             Date:
-                - Mon, 18 May 2026 09:54:32 GMT
+                - Thu, 13 Aug 2026 15:40:41 GMT
             Server:
                 - Scaleway API Gateway (fr-par-2;edge03)
             Strict-Transport-Security:
@@ -5547,7 +5547,7 @@ interactions:
             X-Frame-Options:
                 - DENY
             X-Request-Id:
-                - f9f3a9af-610f-43ea-a720-5aa253c463b9
+                - 7e8f3022-2bc5-4ef2-95bd-aa542a560480
         status: 404 Not Found
         code: 404
-        duration: 53.939246ms
+        duration: 58.707369ms
